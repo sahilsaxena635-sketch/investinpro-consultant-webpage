@@ -14,7 +14,7 @@ const initialMessages: Message[] = [
   {
     id: 1,
     type: "bot",
-    text: "Welcome to InvestinPro! I'm Sahil AI, your personal luxury real estate concierge.\n\nHow may I assist you in discovering premium properties and investment opportunities in Gurgaon today?",
+    text: "Welcome to InvestinPro! I'm InvestinPro AI, your personal luxury real estate concierge.\n\nHow may I assist you in discovering premium properties and investment opportunities in Gurgaon today?",
   },
 ]
 
@@ -31,7 +31,7 @@ const botResponses: Record<string, string> = {
   "show luxury properties": "Exquisite selection curated for you:\n\n• DLF Camellias - Ultra-luxury residences from ₹18 Cr\n• M3M Golf Hills - Premium villas from ₹12 Cr\n• Trump Towers - Iconic living from ₹15 Cr\n\nWould you like a private viewing of any of these properties?",
   "best investment opportunities": "Current high-yield investment opportunities:\n\n• Sector 65 - 18% YoY appreciation\n• Golf Course Extension - Premium demand surge\n• New Gurgaon - Early-stage advantage\n\nShall I provide detailed ROI analysis for any location?",
   "prime locations to invest": "Premium investment corridors in Gurgaon:\n\n• Golf Course Road - Most prestigious address\n• DLF Phase 5 - Established luxury hub\n• Sector 65-67 - Emerging premium destination\n• Southern Peripheral Road - High growth potential\n\nWhich area interests you?",
-  "schedule a site visit": "I'd be delighted to arrange an exclusive property tour.\n\nSahil will personally accompany you for a premium experience. Please share:\n\n• Preferred date & time\n• Properties of interest\n• Budget range\n\nOr call directly: +91 98765 43210",
+  "schedule a site visit": "I'd be delighted to arrange an exclusive property tour.\n\nRitu will personally accompany you for a premium experience. Please share:\n\n• Preferred date & time\n• Properties of interest\n• Budget range\n\nOr call directly: +91 98765 43210",
   "properties under 5 crore": "Premium properties under ₹5 Crore:\n\n• Godrej Aria, Sector 79 - ₹3.5 Cr onwards\n• Ireo Victory Valley - ₹4.2 Cr onwards\n• M3M Merlin, Sector 67 - ₹4.8 Cr onwards\n• Sobha City - ₹3.8 Cr onwards\n\nAll RERA registered with excellent amenities.",
   "commercial properties": "Premium commercial opportunities:\n\n• M3M 65th Avenue - Retail spaces from ₹2.5 Cr\n• Elan Mercado - Office suites from ₹1.8 Cr\n• AIPL Business Club - Grade A offices\n\n12-15% rental yields in prime locations. Interested in any specific type?",
 }
@@ -72,7 +72,7 @@ export function AIAssistant() {
     let responseText = botResponses[lowerText]
 
     if (!responseText) {
-      responseText = `Thank you for your interest in "${text}".\n\nI'll have Sahil personally reach out to you with tailored recommendations. You can also reach him directly at +91 98765 43210.\n\nIs there anything specific you'd like to know in the meantime?`
+      responseText = `Thank you for your interest in "${text}".\n\nI'll have Ritu personally reach out to you with tailored recommendations. You can also reach him directly at +91 98765 43210.\n\nIs there anything specific you'd like to know in the meantime?`
     }
 
     const botMessage: Message = {
@@ -128,7 +128,7 @@ export function AIAssistant() {
               className="absolute right-full mr-3 top-1/2 -translate-y-1/2 whitespace-nowrap"
             >
               <div className="glass px-3 py-2 rounded-lg border border-primary/20 text-sm font-medium text-foreground">
-                Chat with Sahil AI
+                Chat with InvestinPro AI
                 <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1 w-2 h-2 rotate-45 glass border-r border-t border-primary/20" />
               </div>
             </motion.div>
@@ -170,7 +170,7 @@ export function AIAssistant() {
                       </div>
                       
                       <div>
-                        <h3 className="font-serif text-lg font-semibold text-foreground">Sahil AI</h3>
+                        <h3 className="font-serif text-lg font-semibold text-foreground">InvestinPro AI</h3>
                         <p className="text-xs text-primary flex items-center gap-1.5">
                           <span className="w-1.5 h-1.5 bg-green-500 rounded-full" />
                           Your Luxury Real Estate Concierge

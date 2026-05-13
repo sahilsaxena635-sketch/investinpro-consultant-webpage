@@ -16,7 +16,7 @@ export function HeroSection() {
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
   const stats = [
-    { icon: Award, value: "12+", label: "Years of Excellence" },
+    { icon: Award, value: "15+", label: "Years of Excellence" },
     { icon: Building2, value: "500+", label: "Premium Properties" },
     { icon: Users, value: "1000+", label: "Elite Clients" },
   ]
@@ -24,12 +24,12 @@ export function HeroSection() {
   const handleSaveContact = () => {
     const vCard = `BEGIN:VCARD
 VERSION:3.0
-FN:Sahil Saxena
+FN:Ritu Ahlawat
 ORG:InvestinPro
 TITLE:Senior Real Estate Consultant
-TEL;TYPE=CELL:+91 98765 43210
-EMAIL:sahil@investinpro.in
-URL:https://investinpro.in
+TEL;TYPE=CELL:+91 98100 85446
+EMAIL:ritu@investinpro.com
+URL:https://investinpro.com
 ADR;TYPE=WORK:;;Golf Course Road;Gurgaon;Haryana;122002;India
 NOTE:Premium Real Estate Consultant - Helping investors and homebuyers discover premium real estate opportunities in Gurgaon.
 END:VCARD`
@@ -192,8 +192,8 @@ END:VCARD`
                 >
                   <div className="absolute inset-[3px] rounded-full overflow-hidden bg-gradient-to-br from-primary/10 to-transparent">
                     <Image
-                      src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&h=500&fit=crop&crop=face"
-                      alt="Sahil Saxena - Premium Real Estate Consultant"
+                      src="/images/ritu-alhawat.jpg"
+                      alt="Ritu Ahlawat - Founder & CEO | InvestinPro Realtech"
                       fill
                       className="object-cover"
                       priority
@@ -299,7 +299,7 @@ END:VCARD`
               >
                 Helping investors and homebuyers discover{" "}
                 <span className="text-white font-normal">premium real estate</span>{" "}
-                opportunities in Gurgaon.
+                opportunities across Gurgaon.
               </motion.p>
 
               {/* CTA Button with luxury styling */}
