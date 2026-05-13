@@ -78,7 +78,7 @@ export function Navigation() {
                 className="flex items-center gap-2 text-sm text-foreground hover:text-primary transition-colors duration-300"
               >
                 <Phone className="w-4 h-4" />
-                +91 98765 43210
+                +91 98100 85446
               </motion.a>
               <motion.a
                 href="#contact"
@@ -147,7 +147,7 @@ export function Navigation() {
               className="flex items-center gap-2 text-primary py-3"
             >
               <Phone className="w-4 h-4" />
-              +91 98765 43210
+              +91 98100 85446
             </motion.a>
           </div>
         </motion.div>

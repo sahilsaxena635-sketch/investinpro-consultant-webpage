@@ -72,7 +72,7 @@ export function AIAssistant() {
     let responseText = botResponses[lowerText]
 
     if (!responseText) {
-      responseText = `Thank you for your interest in "${text}".\n\nI'll have Ritu personally reach out to you with tailored recommendations. You can also reach him directly at +91 98765 43210.\n\nIs there anything specific you'd like to know in the meantime?`
+      responseText = `Thank you for your interest in "${text}".\n\nI'll have Ritu personally reach out to you with tailored recommendations. You can also reach him directly at +91 98100 85446.\n\nIs there anything specific you'd like to know in the meantime?`
     }
 
     const botMessage: Message = {

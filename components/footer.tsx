@@ -75,7 +75,7 @@ export function Footer() {
                 whileHover={{ x: 3 }}
               >
                 <Phone className="w-4 h-4 text-primary" />
-                +91 98765 43210
+                +91 98100 85446
               </motion.a>
               <motion.a 
                 href="mailto:sahil@investinpro.in" 

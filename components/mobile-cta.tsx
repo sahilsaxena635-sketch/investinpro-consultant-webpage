@@ -13,9 +13,9 @@ VERSION:3.0
 FN:Sahil Saxena
 ORG:InvestinPro
 TITLE:Senior Real Estate Consultant
-TEL;TYPE=CELL:+91 98765 43210
-EMAIL:sahil@investinpro.in
-URL:https://investinpro.in
+TEL;TYPE=CELL:+91 98100 85446
+EMAIL:ritu@investinpro.in
+URL:https://investinpro.com
 NOTE:Luxury Real Estate Consultant - Gurgaon
 END:VCARD`
 

@@ -90,7 +90,7 @@ export function ContactForm() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Phone</p>
-                    <p className="text-foreground group-hover:text-primary transition-colors duration-300">+91 98765 43210</p>
+                    <p className="text-foreground group-hover:text-primary transition-colors duration-300">+91 98100 85446</p>
                   </div>
                 </motion.a>
 
@@ -213,7 +213,7 @@ export function ContactForm() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all duration-300 text-foreground placeholder:text-muted-foreground"
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 98100 85446"
                       />
                     </motion.div>
                   </div>
